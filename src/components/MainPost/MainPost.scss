@@ -1,0 +1,49 @@
+.SingleMainPost{
+    padding: 2rem;
+    padding-right: 7em;
+    background-color: #ededed;
+    width: 40vw;
+
+    a{
+        color: #000;
+        text-decoration: none;
+        font-style: none;
+        font-family: "Abril Fatface", cursive;
+        width: fit-content;
+
+        h1{
+            font-size: 2.5rem;
+            width: fit-content;
+        }
+
+        i{
+            transition: margin .2s;
+        }
+
+        &:hover i{
+            margin-left: 1vw;
+        }
+
+        
+    }
+
+    p{
+        width: fit-content;
+        font-family: 'Bree Serif', serif;
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (max-width: 1140px) {
+    .SingleMainPost{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .SingleMainPost{
+        width: 100%;
+    }
+}

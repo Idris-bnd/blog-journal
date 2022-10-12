@@ -1,0 +1,24 @@
+.MainSection{
+    
+    .MainPosts{
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+}
+
+
+@media screen and (max-width: 1140px) {
+    .MainPosts{
+        flex-direction: column;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .MainPosts{
+        width: 70vw;
+    }
+}

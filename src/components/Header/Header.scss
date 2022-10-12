@@ -1,0 +1,35 @@
+.HeaderNav{
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    
+    a{
+        color: #000;
+        font-style: none;
+        text-decoration: none;
+        font-family: 'Abril Fatface', cursive;
+        font-size: 2rem;
+        transition: color .2s;
+
+        &:hover{
+            color: rgb(53, 53, 53);
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .HeaderNav{
+
+        a{
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .HeaderNav{
+        a{
+            font-size: 1.2rem;
+        }
+    }
+}
